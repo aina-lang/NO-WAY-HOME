@@ -1,0 +1,20 @@
+.landing{
+    background-color: rgb(248, 215, 29);
+}
+
+.form-mess{
+    background-color: #b11313;
+}
+
+.saynaxmarvel{
+    background-color: #114c94;
+}
+
+.saynaxmarvel nav ul li a{
+    border:1px solid white;
+    background-color: #114c94;
+    color: white;
+    margin:10px;
+    padding: 10px 20px;
+    border-radius:15px;
+}

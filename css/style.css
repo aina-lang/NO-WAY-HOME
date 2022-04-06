@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root{
+    --red:rgb(218, 23, 23);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;;
+}
+
+body{
+    
+}
+
+/* debut header */
+header{
+    background-color: var(--red);   
+}
+
+header nav {
+    padding: 5px 30px;
+}
+header nav .logo,footer nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav .logo img,header nav .logo h1{
+    margin-left: 10px;
+}
+
+/* debut landing page */
+section{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,500px);
+    background-image: url("../Illustration/img1.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    padding-top:300px;
+    min-height: 900px;
+}
+
+section .div{
+    padding: 20px;
+    margin-left: 50px;
+    grid-column: 1/2;
+}
+
+section  h1{
+    font-size:75px;
+    font-family: 'Rock Salt', cursive;
+    text-align: left;
+    margin-left: 50px;
+    height: 20px;
+}
+
+section .div a{
+    font-size: 14px;
+    border-radius: 15px;
+    width: 150px;
+    color: #590909;
+    padding: 10px ;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section .div h4{
+    width: 100%;
+    text-align: center;
+}
+
+
+.rows{
+    min-height: 900px;
+    background-color:#b11313;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cols{
+    width: 25%;
+    max-height: 500px;
+}
+
+.cols p{
+    margin-top: 20px;
+ text-align:justify;
+ color: white;
+}
+
+ 
+
+.cols a{
+    color: #b11313;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    width: 70%;
+    text-align:center;
+    margin: auto;
+}
+
+/* fin landing page */
+
+.form-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,500px);
+  justify-content:space-around;
+}
+
+.form-container,.news-letter{
+padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,600px);
+  justify-content:space-between;
+  align-items: center;
+}
+
+.form-container form{
+    width: 100%;
+    text-align: center;
+}
+
+.form-container form input{
+    width: 60%;
+    margin:5px 0;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
+
+.form-container form #envoyer{
+    width: 40%;
+    margin:5px 0;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border:1px solid white;
+    color: white;
+}
+
+
+.news-letter {
+ background-color:#b11313;
+ 
+}
+
+.news-letter form{
+    width: 100%;
+    color: white;
+    margin: 100px;
+    margin-bottom: 0;
+}
+
+.news-letter #nomPrenom,.news-letter #addresseEmail{
+    width:60%;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 40px;
+    background-color:#b11313;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    display: block;
+}
+
+.news-letter #inscrire{
+    width: 40%;
+    margin:5px 0;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color:white;
+    color: #b11313;
+}
+
+.news-letter a{
+    color: white;
+    margin-right: 5px;
+}
+
+footer{
+    background-color: #000000;
+}
+
+footer nav {
+ display: flex;
+ justify-content:space-between;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    margin: 10px 20px;
+   
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family:fa from;
+}
+
+.row1{
+    background-color:#b11313;
+    color:white
+}
+
+.row1 a{
+    width: 70%;
+    border-radius: 15px;
+    align-self: center;
+    color: #b11313;
+}
